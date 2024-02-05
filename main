@@ -1,0 +1,5 @@
+resource "aws_instance" "demo-server" {
+  ami = "ami-0277155c3f0ab2930"
+  key_name = "mayowakp"
+  instance_type = "t2.micro"
+}
